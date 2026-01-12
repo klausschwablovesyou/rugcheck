@@ -1,0 +1,21 @@
+# Build output
+/target/
+
+# Cargo lock (optional for binaries, keep if you want reproducible builds)
+# Cargo.lock
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
