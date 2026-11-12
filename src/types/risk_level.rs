@@ -1,6 +1,7 @@
 use serde::Serialize;
 
-#[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize)]
+/// Ordered by severity, so the overall risk is simply the maximum.
+#[derive(Debug, Clone, Copy, PartialEq, Eq, PartialOrd, Ord, Serialize)]
 pub enum RiskLevel {
     Safe,
     Warning,
